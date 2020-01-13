@@ -1,0 +1,174 @@
+
+/***** BASE STYLES ************/
+
+body {
+     font-family: 'Montserrat', sans-serif;
+}
+
+p {
+     font-size: 16px;
+}
+
+/***** GRID *****************/
+
+.full-width{
+     margin: 0 auto;
+     width: 1240px;
+}
+
+.half-width{
+	   float: left;
+     width: 620px;
+}
+
+.third-width{
+	   float: left;
+     width: 350px;
+}
+
+
+/***** HEADER *************/
+
+
+header {
+	   height: 110px;
+     padding-left: 35px;
+}
+
+h1 {
+     font-size: 30px;
+	   font-weight: bold;
+		 line-height: 23px;
+	   padding: 50px 0px 40px 0px;
+}
+
+header h1 span {
+     color: #77a466;
+}
+
+nav {
+     padding-right: 15px;
+}
+
+a {
+     color: #77a466;
+	   float: right;
+     font-size: 14px;
+	   font-weight: bold;
+		 line-height: 23px;
+     padding: 80px 30px 47px 0px;
+	   text-decoration: none;
+}
+
+/***** INTRO *************/
+
+#intro {
+     border-bottom: 1px solid #dedbdc;
+     width: 1200px ;
+}
+
+#intro p {
+     line-height: 25px;
+}
+
+img {
+     border-bottom: 3px solid #77a466;
+  	 border-top: 3px solid #77a466;
+}
+
+#hero-image {
+     height: 290px;
+	   width: 1200px;
+}
+
+
+h2 {
+	   color: #77a466;
+     font-size: 18px;
+     font-weight: bold;
+		 line-height: 23px;
+}
+
+
+/***** INFORMATION SECTION*************/
+
+#info {
+	   border-bottom: 1px solid #dedbdc;
+		 height: 250px;
+     width: 1200px;
+}
+
+#info h3 {
+     font-size: 12px;
+     font-weight: bold;
+		 line-height: 25px;
+}
+
+
+
+/***** LEFT BOX *************/
+
+#specials {
+     border-right: 1px solid #dedbdc;
+     height: 250px;
+}
+
+#specials h3 {
+     padding-top: 30px;
+}
+
+#specials p {
+     color: #77a466;
+		 line-height: 18px;
+}
+
+
+/***** MIDDLE BOX *************/
+
+#reviews {
+     padding: 30px;
+}
+
+#reviews p {
+     line-height: 21px;
+}
+
+
+/***** RIGHT BOX  *************/
+
+#contactus {
+     border-left: 1px solid #dedbdc;
+		 height: 250px;
+}
+
+#contactus h3 {
+     padding-top: 30px;
+		 padding-left: 30px;
+}
+
+#contactus p {
+     line-height: 24px;
+		 padding-left: 30px;
+}
+
+
+
+/***** FOOTER *************/
+
+footer {
+	   clear: both;
+     height: 80px;
+}
+
+footer h2 {
+     color: black;
+	   font-size: 16px;
+		 padding: 35px;
+	   text-align: center;
+}
+
+footer h2 span {
+	   color: #77a466;
+     font-family: 'Dancing Script', cursive;
+	   font-weight: bold;
+}
